@@ -1,29 +1,32 @@
 import java.util.Scanner;
 
-public class Punto1 {
-
-    static class Persona {
-        String nombre;
-        int edad;
-        
-        public void saludar(){
-            System.out.println("Hola mi nombre es " + nombre + " y tengo " + edad + " años");
-        }
-    }
-
+public class Principal {
     public static void main(String[] args) {
-
-        Persona persona1 = new Persona();
-        Scanner escaner = new Scanner(System.in);
-
-        System.out.println("Ingrese su nombre:");
-        persona1.nombre = escaner.nextLine();
-
-        System.out.println("Ingrese su edad:");
-        persona1.edad = escaner.nextInt();
-
-        persona1.saludar();
-
-        escaner.close();
+        
+        Scanner miTeclado = new Scanner(System.in);
+        
+        double monto;
+        String calificacion;
+        
+        System.out.println("Porfavor ingrese el monto de la cuenta");
+        monto = miTeclado.nextDouble();
+        miTeclado.nextLine();
+        
+        System.out.println("¿Como califica nuestro servicio? (malo/regular/bueno/excelente)");
+        calificacion = miTeclado.nextLine();
+        
+        if (calificacion.equals("malo")) {
+            System.out.println("Este es el total: " + monto * 1.00);
+        } else if (calificacion.equals("regular")) {
+            System.out.println("Este es el total: " + monto * 1.10);
+        } else if (calificacion.equals("bueno")) {
+            System.out.println("Este es el total: " + monto * 1.15);
+        } else if (calificacion.equals("excelente")) {
+            System.out.println("Este es el total: " + monto * 1.20);
+        } else {
+            System.out.println("Calificación no reconocida");
+        }
+        
+        miTeclado.close();
     }
 }

@@ -1,11 +1,7 @@
-# trabajos-u
-Ejercicios y trabajos de la universidad, organizados por lenguaje
-
-Repositorio donde subo ejercicios y trabajos de la universidad, organizados por lenguaje. Cada carpeta de lenguaje contiene subcarpetas por tema o concepto.
-
-> Solo se sube código que compila/corre correctamente.
-
-Cada carpeta de nivel superior es un lenguaje (Java, Python, y los que se vayan agregando). Dentro de cada una, las subcarpetas agrupan ejercicios por tema (por ejemplo `poo-herencia-polimorfismo`, `encapsulamiento`, `recursion`, `arreglos`, etc.), y cada archivo es un ejercicio individual con su código.
-
-## Actualizaciones
-Este repositorio se actualiza constantemente a medida que avanzan las materias — nuevos lenguajes, temas y ejercicios se agregan directamente como carpetas/archivos nuevos, sin necesidad de reescribir este README.
+# university-coursework
+University exercises and coursework, organized by language
+Repository where I upload university exercises and coursework, organized by language. Each language folder contains subfolders by topic or concept.
+> Only code that compiles/runs correctly is uploaded here.
+Each top-level folder is a programming language (Java, Python, and any others added later). Within each one, subfolders group exercises by topic (e.g. `poo-herencia-polimorfismo`, `encapsulamiento`, `recursion`, `arreglos`, etc.), and each file is an individual exercise with its code.
+## Updates
+This repository is updated constantly as coursework progresses — new languages, topics, and exercises are added directly as new folders/files, with no need to rewrite this README.
